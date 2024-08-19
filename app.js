@@ -1,19 +1,32 @@
-function GeneralKenobi() {
-  console.log("General kenobi!");
-}
-GeneralKenobi();
+console.log("Hello world!");
 
-let a = 50;
-let b = 50;
-let c = 50;
-
-function sum() {
-  console.log(a + b + c);
+function sayHello() {
+  console.log("Hello world!");
 }
 
-sum();
+sayHello();
+sayHello();
+sayHello();
 
-function Goodbye() {
-  console.log("sayonara!");
+function greet(greeting, userName) {
+  console.log(greeting + " " + userName + "!");
 }
-Goodbye();
+
+greet("Happy shopping", "Dale");
+greet("good sleepings?", "Bunk");
+greet("MA NAME A", "Jeff");
+
+let a = 100;
+let b = 500;
+
+function calculate(a, b, operator) {
+  if (operator === "+") {
+    return add(a, b);
+  } else if (operator === "-") {
+    return subtract(a, b);
+  } else if (operator === "*") {
+    return multiply(a, b);
+  } else if (operator === "/") {
+    return divide(a, b);
+  }
+}
