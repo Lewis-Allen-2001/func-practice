@@ -1,4 +1,7 @@
-console.log("General kenobi!");
+function GeneralKenobi() {
+  console.log("General kenobi!");
+}
+GeneralKenobi();
 
 let a = 50;
 let b = 50;
@@ -10,4 +13,7 @@ function sum() {
 
 sum();
 
-console.log("sayonara!");
+function Goodbye() {
+  console.log("sayonara!");
+}
+Goodbye();
